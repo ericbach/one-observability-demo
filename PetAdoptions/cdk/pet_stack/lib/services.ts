@@ -145,6 +145,7 @@ export class Services extends Stack {
             }),
             readers: [
             ],
+            storageEncrypted: true, // Add encryption
             serverlessV2MaxCapacity: 1,
             serverlessV2MinCapacity: 0.5,
         });
